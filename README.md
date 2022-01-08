@@ -102,7 +102,7 @@ pipenv install
 ## How To Restore Images In This Project
 1. Run `src/data/inpainting/prepare_inpainting.m` and you will get the `inpainting1925.mat`, `reference.mat`, `mask.mat`
     - then move `reference.mat` and `mask.mat` to `src/data/` path
-2. Run `src/inpainting2D.ipynb` and it will save the impainting results to `src/data/result_inpainting_2D_it{IterationCount}_192.mat`
+2. Run `src/inpainting_2D_CPU_version.ipynb` or `src/inpainting_2D_GPU_version.ipynb` and it will save the impainting results to `src/data/result_inpainting_2D_it{IterationCount}_192.mat`
 3. Run `python src/main.py` in terminal
 
 ## Reference
